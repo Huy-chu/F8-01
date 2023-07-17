@@ -8,27 +8,40 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
-
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <main>
-        <!--------------- Header ---------------->
-        <<a href="#!">
-
-
-        </a>der class="header">
+        <!--------------------------- Header ----------------------------->
+    <header class="fix-header">
             <div class="content">
                 <nav class="navbar">
                     <!-- Logo -->
-                    <img src="./assets/img/Logo.svg" alt="logo">
+                    <a href="#"><img src="./assets/img/Logo.svg" alt="logo"></a>
                     
                     <!-- Navigation -->
                     <ul>
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#!">Features</a></li>
-                        <li><a href="#!">Services</a></li>
-                        <li><a href="#!">Resources</a></li>
-                        <li><a href="#!">Contact</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
 
                     <!-- Action -->
@@ -37,32 +50,34 @@
                         <a href="#!"class="btn action-btn">Sign up</a>
                     </div>
                 </nav>
-     
-                <div class="hero">
-                    <div class="info">
-                        <p class="sub-title">Welcome to Besnik Agency</p>
+            </div>
+    </header>
 
-                        <h1 class="title">Discover a place you'll love to live.</h1>
+    <main>
+        <!-- Hero -->
+        <div class="hero-wrap">
+            <div class="content">
+                <div class="info">
+                    <p class="sub-title">Welcome to Besnik Agency</p>
 
-                        <p class="desc">Get the best real estate deals first,
+                    <h1 class="title">Discover a place you'll love to live.</h1>
+
+                    <p class="desc">Get the best real estate deals first,
                             before they hit the mass market! HOT FORECLOSURE DEALS with one simple search.</p>
 
-                        <a href="#!" class="btn hero-cta">More About Us</a>
+                    <a href="#!" class="btn hero-cta">More About Us</a>
 
-                    </div>
-
-                    <img
-                        src="./assets/img/homes.svg"
-                        alt="Discover a place you'll love to live."
-                        class="hero-img"
-                    />
-                    </div>
-                    </div>
                 </div>
-            </div>
-        </header>
 
-        <!-------------- Clients ---------------->
+                <img
+                    src="./assets/img/homes.svg"
+                    alt="Discover a place you'll love to live."
+                    class="hero-img"
+                />      
+            </div>
+        </div>
+
+        <!--------------------------- Clients ---------------------------->
         <div class="clients">
             <div class="content">
                 <div class="row">
@@ -105,8 +120,8 @@
             </div>
         </div>
 
-        <!-------------- Guides ---------------->
-        <div class="guides">
+        <!--------------------------- Guides ----------------------------->
+        <div id="services" class="guides">
             <div class="content">
                 <h2 class="sub-title">How its works?</h2>
 
@@ -148,8 +163,8 @@
             </div>         
         </div>
 
-        <!-------------- Featured ---------------->
-        <div class="featured">
+        <!-------------------------- Featured ------------------------------->
+        <div id="features" class="featured">
             <div class="content">
                 <header>
                     <h2 class="sub-title">Featured Properties</h2>
@@ -251,8 +266,8 @@
             </div>
         </div>
 
-        <!---------------- Stats ----------------->
-        <div class="stats">
+        <!---------------------------- Stats ----------------------------->
+        <div id="resources" class="stats">
             <div class="content">
                 <div class="row">
                     <div class="img-block">
@@ -348,8 +363,8 @@
             </div>
         </div>
 
-        <!-------------- subscription --------------->
-        <div class="subscription">
+        <!------------------------- subscription ------------------------------->
+        <div id="contact" class="subscription">
             <div class="content">
                 <div class="body">
                     <div class="info">
@@ -364,9 +379,10 @@
                 </div>
             </div>
         </div>
-
-        <!-------------- Footer --------------->
-        <footer class="footer">
+    </main>
+        
+    <!------------------------------ Footer ------------------------------->
+    <footer class="footer">
             <div class="content">
                 <div class="row row-top">
                     <!-- Product column -->
@@ -408,7 +424,15 @@
                         <p class="desc">You’ll find your next home, in any style you prefer.</p>
                         <div class="social">
                             <a href="#!" class="social-link">
-                                <img src="./assets/img/social icon.svg">
+                                <img src="./assets/img/Facebook icon.svg">
+                            </a>
+
+                            <a href="#!" class="social-link">
+                                <img src="./assets/img/twitter icon.svg">
+                            </a>
+
+                            <a href="#!" class="social-link">
+                                <img src="./assets/img/lindedin icon.svg">
                             </a>
                         </div>
                     </div>
@@ -419,8 +443,8 @@
                     <p class="copyright">Copyright 2020.com, All rights reserved.</p>
                 </div>
             </div>
-        </footer>
-    </main>
+    </footer>
 </body>
 </html>
+
 
